@@ -17,15 +17,11 @@ A responsive blog application built with Vue 3, TypeScript, Pinia, Tailwind CSS 
 
 ### Home Page
 
-![Home](./screenshots/home.png)
+![Home](./screenshots/homePage.png)
 
 ### Article Page
 
-![Article](./screenshots/article.png)
-
-### Categories
-
-![Categories](./screenshots/categories.png)
+![Article](./screenshots/articlePage.png)
 
 ## Technologies
 
