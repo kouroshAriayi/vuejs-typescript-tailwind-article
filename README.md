@@ -1,42 +1,87 @@
-# vue-project2
+# Vue Articles Blog
 
-This template should help get you started developing with Vue 3 in Vite.
+A responsive blog application built with Vue 3, TypeScript, Pinia, Tailwind CSS and Axios.
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* Display all blog articles
+* Filter articles by category
+* View article details
+* Custom 404 page
+* State management with Pinia
+* Responsive UI
+* Fetch data using Axios
+* Mock REST API with json-server
 
-## Recommended Browser Setup
+## Screenshots
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### Home Page
 
-## Type Support for `.vue` Imports in TS
+![Home](./screenshots/home.png)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Article Page
 
-## Customize configuration
+![Article](./screenshots/article.png)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### Categories
 
-## Project Setup
+![Categories](./screenshots/categories.png)
 
-```sh
+## Technologies
+
+* Vue 3 (Composition API)
+* TypeScript
+* Pinia
+* Vue Router
+* Axios
+* Tailwind CSS
+* Vite
+* json-server
+
+## Installation
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Run the development server
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Run the mock API
 
-```sh
-npm run build
+```bash
+npm run server
 ```
+
+The API will be available at:
+
+```
+http://localhost:3000
+```
+
+## Project Structure
+
+```
+src/
+ ├── api/
+ ├── components/
+ ├── router/
+ ├── stores/
+ ├── types/
+ └── views/
+```
+
+## Future Improvements
+
+* Search articles
+* Pagination
+* Dark mode
+* Authentication
+* Backend integration
+
+## Author
+
+Kourosh Ariayi
